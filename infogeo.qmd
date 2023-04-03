@@ -1,0 +1,104 @@
+---
+title: "Information Géographique"
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    incremental: true
+    logo: "images/Logo partenaire.jpg"
+    footer: "Ecole d'été internationale sur les méthodes et outils des sciences des territoires"
+editor: visual
+author: "Pauline et Labaly"
+---
+
+# Contexte
+
+![](images/cist.jpg){fig-align="center"}
+
+## OBJECTIF
+
+L'objectif de ce module est de permettre aux particpants de Comprendre ce qu'est une information géographique, de la manipuler et la construire.
+
+## Informations pratiques {.smaller}
+
+-   Durée : 1h + 2h
+
+-   Compétences visées :
+
+    -   Capacité à comprendre la notion d'information géographique, à la collecter, la manipuler et l'adapter.
+
+::: {.fragment .highlight-red}
+-   Pré-requis :
+    -   Installation du logiciel Qgis
+    -   téléchargement des données en amont
+    -   Connexion internet
+    -   Téléchargement d'une application pour smartphone (GPStest)
+:::
+
+## Informations pratiques
+
+-   Durée : 1h + 2h
+
+-   Compétences visées :
+
+    -   Capacité à comprendre la notion d'information géographique, à la collecter, la manipuler et l'adapter.
+
+# **Plan**
+
+-   Définition
+-   Formats et visualisation Raster Vecteur
+-   Modes d'acquisition GPS (donnée d'enquête, capteurs) Géoréferencement Numérisation cartes et digitalisation Acquisition distance / Télédétection Autres sources
+
+# Définition
+
+L'information géographique peut être définie comme «l'ensemble de la description d'un objet et de sa position géographique à la surface de la Terre.» (Association Française pour l'information Géographique).
+
+Toute information contenant une référence à un lieu, qu'il s'agisse d'un point précis du territoire, d'une ligne (route, frontière, cours d'eau) ou encore d'une surface donnée (aire protégée, zone d'emploi, commune...) a une dimension géographique.
+
+**Ainsi une grande partie de l'information que nous traitons possède une dimension géographique (adresse, coordonnées géographiques, identification d'un lieu...) et constitue donc une information géographique**
+
+# Parlons d'info géo
+
+"L'information géographique est la représentation d'un objet ou d'un phénomène réel, localisé dans l'espace à un moment donné." Philippe Quodverte, 1994
+
+Deux grands types de données :
+
+-   les données géométriques, qui portent une information spatiale
+-   les données non géométriques, que l'on doit relier aux précédentes pour pouvoir les représenter.
+
+Pour qu'une information soit considérée comme géographique, celle-ci doit pouvoir être localisée précisément dans l'espace.
+
+Le procédé qui consiste à positionner un objet (une entité géographique, une personne...) dans l'espace à l'aide de coordonnées géographiques s'appelle le géoréférencement.
+
+# 1.2 Formats et visualisation
+
+# 1.2.1 Raster
+
+![pixel](images/rast.jpg){fig-align="left"}
+
+![raster](images/im3.jpg){fig-align="right"}
+
+# 1.2.2 Vecteur
+
+# Géoréférencement
+
+![](images/georef.png)
+
+# Acquisition à distance
+
+::: columns
+::: column
+![drones](images/drone.jpg){fig-align="left"}
+:::
+
+::: column
+![](images/im4.png){fig-align="left"}
+:::
+:::
+
+# Metadonnées
+
+**Données et métadonnées** : une exigence incontournable
+
+Une qualité souvent difficile à évaluer, des données à manipuler avec précaution, des contextes non connus.
+
+De multiples questions sur la propriété des données/de l'information/ de la connaissance.
