@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Palatino Linotype", "Book Antiqua", Palatino,
+  FreeSerif, serif !default;
+  
+$presentation-heading-font-weight: 900;
+$presentation-font-size-root: 30px; 
+$presentation-font-smaller: 0.8;
+$body-bg: #86e6eb;
+$body-color: #252d30;
+$link-color: #f0f7fa;
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
